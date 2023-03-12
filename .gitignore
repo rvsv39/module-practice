@@ -1,0 +1,12 @@
+*/csrc
+*/simv.daidir
+*/verdiLog
+*.log
+*.conf
+simv
+*.fsdb
+ucli.key
+*.rc
+*.fsdb*
+vc_hdrs.h
+verdiLog

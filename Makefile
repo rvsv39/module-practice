@@ -6,6 +6,9 @@ sim: $(DP)/code/*
 run: $(DP)/simv
 	$(DP)/simv
 
+f: 
+	cd $(DP) && touch filelist.f && (find -name "*.sv" > filelist.f)
+
 .DEFAULT_GOAL := all
-.PHONY : all
+.PHONY : all f
 all : sim run
